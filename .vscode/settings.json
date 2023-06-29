@@ -1,0 +1,9 @@
+{
+    "json.validate.enable": false,
+    "eslint.validate": [
+        "javascript",
+        "react"
+    ],
+    "eslint.codeActionsOnSave.mode": "problems",
+    "editor.formatOnSave": false,
+}

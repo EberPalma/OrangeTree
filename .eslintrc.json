@@ -1,3 +1,41 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "plugins": [
+    "no-autofix",
+    "react"
+  ],
+  "rules": {
+    "no-console": "off",
+    "indent": [
+      "warn",
+      4
+    ],
+    "no-autofix/indent": "warn",
+    "semi": 0,
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "brace-style": [
+      "warn",
+      "1tbs",
+      {
+       "allowSingleLine": true
+      }
+    ],
+    "object-curly-spacing": [
+      "1",
+      {
+        "arraysInObjects": true,
+        "objectsInObjects": true
+      }
+    ],
+    "object-curly-newline": [
+      "error",
+      "always"
+    ],
+    "react/prop-types": "off",
+    "react/jsx-indent": 0,
+    "react/jsx-closing-tag-location": "off"
+  }
 }
